@@ -1,0 +1,15 @@
+<ng-container>
+    <div class="login-container">
+        <div class="inner-container">
+            <img class="logo" src="assets/images/logo.jpeg" width="290" height="75" alt="logo-uv">
+            <input nz-input placeholder="Nome do usuário" [(ngModel)]="userName"type="text" />
+            <br>
+            <input nz-input placeholder="Senha"
+                [(ngModel)]="password" type="password" />
+            <div class="button-container">
+                <button nz-button nzBlock nzType="primary" (click)="login()" [disabled]="loading" [nzLoading]="loading">
+                </button>
+            </div>
+        </div>
+    </div>
+</ng-container>

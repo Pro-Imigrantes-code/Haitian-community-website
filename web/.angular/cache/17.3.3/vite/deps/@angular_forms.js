@@ -1,4 +1,5 @@
 import {
+<<<<<<< HEAD
   getDOM
 } from "./chunk-3SYLCMQS.js";
 import {
@@ -6322,6 +6323,67 @@ var ReactiveFormsModule = _ReactiveFormsModule;
     }]
   }], null, null);
 })();
+=======
+  AbstractControl,
+  AbstractControlDirective,
+  AbstractFormGroupDirective,
+  COMPOSITION_BUFFER_MODE,
+  CheckboxControlValueAccessor,
+  CheckboxRequiredValidator,
+  ControlContainer,
+  DefaultValueAccessor,
+  EmailValidator,
+  FormArray,
+  FormArrayName,
+  FormBuilder,
+  FormControl,
+  FormControlDirective,
+  FormControlName,
+  FormGroup,
+  FormGroupDirective,
+  FormGroupName,
+  FormRecord,
+  FormsModule,
+  MaxLengthValidator,
+  MaxValidator,
+  MinLengthValidator,
+  MinValidator,
+  NG_ASYNC_VALIDATORS,
+  NG_VALIDATORS,
+  NG_VALUE_ACCESSOR,
+  NgControl,
+  NgControlStatus,
+  NgControlStatusGroup,
+  NgForm,
+  NgModel,
+  NgModelGroup,
+  NgSelectOption,
+  NonNullableFormBuilder,
+  NumberValueAccessor,
+  PatternValidator,
+  RadioControlValueAccessor,
+  RangeValueAccessor,
+  ReactiveFormsModule,
+  RequiredValidator,
+  SelectControlValueAccessor,
+  SelectMultipleControlValueAccessor,
+  UntypedFormArray,
+  UntypedFormBuilder,
+  UntypedFormControl,
+  UntypedFormGroup,
+  VERSION,
+  Validators,
+  isFormArray,
+  isFormControl,
+  isFormGroup,
+  isFormRecord,
+  ɵInternalFormsSharedModule,
+  ɵNgNoValidate,
+  ɵNgSelectMultipleOption
+} from "./chunk-WZQQMBFZ.js";
+import "./chunk-PQVH24XA.js";
+import "./chunk-NYNI3Q2H.js";
+>>>>>>> development
 export {
   AbstractControl,
   AbstractControlDirective,
@@ -6380,6 +6442,7 @@ export {
   ɵNgNoValidate,
   ɵNgSelectMultipleOption
 };
+<<<<<<< HEAD
 /*! Bundled license information:
 
 @angular/forms/fesm2022/forms.mjs:
@@ -6389,4 +6452,6 @@ export {
    * License: MIT
    *)
 */
+=======
+>>>>>>> development
 //# sourceMappingURL=@angular_forms.js.map

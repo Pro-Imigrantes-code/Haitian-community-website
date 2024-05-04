@@ -1,0 +1,39 @@
+<nz-layout class="app-layout">
+  <div class="sidebar-logo">
+    <a target="_blank">
+      <img src="assets/images/logo.jpeg" alt="logo">
+      <h1>PRÓ-IMIGRANTE</h1>
+    </a>
+  </div>
+  <nz-header class="header">
+    <div class="header-content">
+      <ul nz-menu nzTheme="dark" nzMode="horizontal" class="menu">
+        <li nz-submenu nzOpen>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/welcome">Início</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a>Estudantes</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a>Editais</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a>Contatos</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a>Sobre Nós</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a>Atendimento</a>
+          </li>
+      </ul>
+      <nz-avatar nz-icon="user" class="avatar"></nz-avatar>
+    </div>
+  </nz-header>
+  <nz-content>
+    <div class="inner-content">
+      <router-outlet></router-outlet>
+    </div>
+  </nz-content>
+</nz-layout>
